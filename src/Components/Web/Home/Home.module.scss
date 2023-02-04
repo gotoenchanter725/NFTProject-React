@@ -1,0 +1,166 @@
+.main {
+  color: white;
+
+  .title {
+    text-align: center;
+    text-shadow: 0px 3px 6px #00000029;
+    letter-spacing: 0px;
+    z-index: 0;
+    position: relative;
+    .title_first {
+      font-size: 63px;
+      line-height: 70px;
+      font-family: Avenir;
+      font-weight: 500;
+    }
+    .title_second {
+      font-weight: 900;
+      font-size: 63px;
+      line-height: 70px;
+      font-family: Avenir Next;
+    }
+  }
+
+  .subtitle {
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    // font-family:Avenir;
+    text-align: center;
+    letter-spacing: 0px;
+  }
+  .collection {
+    margin-top: 196px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Avenir Next;
+    font-size: 72px;
+    letter-spacing: 2px;
+    // color: #FFFFFF;
+    text-align: center;
+    .collection_title_first {
+      // font: normal normal normal 72px/80px Avenir Next;
+      font-family: Avenir;
+      font-size: 72px;
+      font-weight: 300;
+      letter-spacing: 0px;
+    }
+
+    .collection_title_second {
+      // font: normal normal bold 72px/80px Avenir Next;
+      font-family: Avenir;
+      font-size: 72px;
+      font-weight: 600;
+      letter-spacing: 0px;
+    }
+  }
+  .markIcon {
+    margin-top: 904px;
+    z-index: 10;
+  }
+  .bg {
+    padding-top: 94px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  .bg_img {
+    padding-top: 94px;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 100%;
+    position: relative;
+    transform: translateY(80%);
+    height: 45%;
+    position: absolute;
+  }
+
+  .countdown_container {
+    position: absolute;
+    top: 160px;
+    width: 120%;
+    transform: translateX(-10%);
+    padding: 25px 20px 10px 20px;
+    background: transparent linear-gradient(250deg, #053554 0%, #021124 100%) 0%
+      0% no-repeat padding-box;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .countdown {
+    background: transparent linear-gradient(261deg, #9cd4e6 0%, #def6fd 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #e2f8ff;
+    border-radius: 14px;
+    margin-bottom: 40px;
+    color: #004F74;
+    padding: 15px 60px;
+    font-family: Avenir;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .slidebar_container {
+    position: relative;
+    border-radius: 20px;
+    background-color: #004F74;
+    height: 16px;
+    width: 100%;
+  }
+  .slidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+    height: 16px;
+    background: transparent linear-gradient(270deg, #99D3E5 0%, #E2F8FF 100%) 0% 0% no-repeat padding-box;
+  }
+
+  .countdown_container_dark {
+    position: absolute;
+    top: 160px;
+    width: 120%;
+    transform: translateX(-10%);
+    padding: 25px 20px 10px 20px;
+    background: transparent linear-gradient(252deg, #E2F8FF 0%, #99D3E5 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 46px #02112464;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .countdown_dark {
+    background: transparent linear-gradient(90deg, #021124 0%, #053554 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 46px;
+    border-radius: 14px;
+    margin-bottom: 40px;
+    color: white;
+    padding: 15px 60px;
+    font-family: Avenir;
+    font-size: 28px;
+    font-weight: 400;
+  }
+  .slidebar_container_dark {
+    position: relative;
+    border-radius: 20px;
+    background: #99D3E5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    height: 16px;
+    width: 100%;
+  }
+  .slidebar_dark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 20px;
+    height: 16px;
+    background: transparent linear-gradient(270deg, #086A98 0%, #053554 100%) 0% 0% no-repeat padding-box;
+  }
+  .fontColor_dark {
+    color: #053554;
+  }
+}

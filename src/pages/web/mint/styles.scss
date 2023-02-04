@@ -1,0 +1,318 @@
+.mint_container {
+  background-image: url('../../../assests/images/ocean-background3.png'),
+    linear-gradient(180deg, #99d3e5 0%, #053554 44%, #000000 100%);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mint_container_dark {
+  background-image: url('../../../assests/images/ocean-background-dark3.png'),
+    linear-gradient(180deg, #05365c 1%, #000000 100%);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.mint_bg {
+
+  .jellyfish-mint-1 {
+    position: absolute;
+    left: 36%;
+    top: 40%;
+    width: 403px !important;
+    height: 402px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    mix-blend-mode: screen;
+    opacity: 0.89;
+    z-index: 10;
+    animation-duration: 1s;
+    animation-name: changewidth1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    @keyframes changewidth1 {
+      from {
+        width: 403px;
+        height: 402px;
+        top: 40%;
+      }
+
+      to {
+        width: 413px;
+        height: 412px;
+        top: calc(40% + 15px);
+      }
+    }
+  }
+
+  .jellyfish-mint-2 {
+    position: absolute;
+    right: -7%;
+    width: 303px !important;
+    top: 27%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    mix-blend-mode: screen;
+    opacity: 0.77;
+    z-index: 10;
+    animation-duration: 1.25s;
+    animation-name: changewidth2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.3, 0.1, 0.8, 0.6);
+    @keyframes changewidth2 {
+      from {
+        width: 303px;
+        top: 27%;
+      }
+
+      to {
+        width: 313px;
+        top: calc(27% + 15px);
+      }
+    }
+  }
+
+  .jellyfish-mint-3 {
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    height: 245px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    mix-blend-mode: screen;
+    opacity: 0.43;
+    z-index: 10;
+    animation-duration: 1.4s;
+    animation-name: changewidth3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(1, 0.3, 0.1, 0.1);
+    @keyframes changewidth3 {
+      from {
+        height: 245px;
+        top: 18%;
+        opacity: 0.73;
+      }
+
+      to {
+        height: 250px;
+        top: calc(18% + 15px);
+        opacity: 0.43;
+      }
+    }
+  }
+}
+
+#mint-background-wrap {
+	position: relative;
+	// z-index: 0;
+    @-webkit-keyframes mintAnimateBubble {
+        0% {
+            margin-top: 1000px;
+        }
+        100% {
+            margin-top: 10%;
+        }
+    }
+    
+    @-moz-keyframes mintAnimateBubble {
+        0% {
+            margin-top: 1000px;
+        }
+        100% {
+            margin-top: 10%;
+        }
+    }
+    
+    @keyframes mintAnimateBubble {
+        0% {
+            margin-top: 1000px;
+        }
+        100% {
+            margin-top: 10%;
+        }
+    }
+    
+    @-webkit-keyframes sideWays { 
+        0% { 
+            margin-left:0px;
+        }
+        100% { 
+            margin-left:50px;
+        }
+    }
+    
+    @-moz-keyframes sideWays { 
+        0% { 
+            margin-left:0px;
+        }
+        100% { 
+            margin-left:50px;
+        }
+    }
+    
+    @keyframes sideWays { 
+        0% { 
+            margin-left:0px;
+        }
+        100% { 
+            margin-left:50px;
+        }
+    }
+    
+    /* ANIMATIONS */
+    
+    .x1 {
+        -webkit-animation: mintAnimateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        
+        left: -5%;
+        top: 5%;
+        
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        transform: scale(0.6);
+      opacity: 0.23;
+    }
+    
+    .x2 {
+        -webkit-animation: mintAnimateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        
+        left: 5%;
+        top: 80%;
+        
+        -webkit-transform: scale(0.4);
+        -moz-transform: scale(0.4);
+        transform: scale(0.4);
+      opacity: 0.35;
+    }
+    
+    .x3 {
+        -webkit-animation: mintAnimateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        
+        left: 10%;
+        top: 40%;
+        
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        transform: scale(0.7);
+      opacity: 0.7
+    }
+    
+    .x4 {
+        -webkit-animation: mintAnimateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        
+        left: 20%;
+        top: 0;
+        
+        -webkit-transform: scale(0.3);
+        -moz-transform: scale(0.3);
+        transform: scale(0.3);
+      opacity: 0.45;
+    }
+    
+    .x5 {
+        -webkit-animation: mintAnimateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        
+        left: 30%;
+        top: 50%;
+        
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        transform: scale(0.5);
+      opacity: 0.88;
+    }
+    
+    .x6 {
+        -webkit-animation: mintAnimateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        
+        left: 50%;
+        top: 0;
+        
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+      opacity: 0.97;
+    }
+    
+    .x7 {
+        -webkit-animation: mintAnimateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        
+        left: 65%;
+        top: 70%;
+        
+        -webkit-transform: scale(0.4);
+        -moz-transform: scale(0.4);
+        transform: scale(0.4);
+      opacity: 0.63;
+    }
+    
+    .x8 {
+        -webkit-animation: mintAnimateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+        
+        left: 80%;
+        top: 10%;
+        
+        -webkit-transform: scale(0.3);
+        -moz-transform: scale(0.3);
+        transform: scale(0.3);
+      opacity: 0.73;
+    }
+    
+    .x9 {
+        -webkit-animation: mintAnimateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+        
+        left: 90%;
+        top: 50%;
+        
+        -webkit-transform: scale(0.6);
+        -moz-transform: scale(0.6);
+        transform: scale(0.6);
+      opacity: 0.83;
+    }
+    
+    .x10 {
+        -webkit-animation: mintAnimateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        -moz-animation: mintAnimateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        animation: mintAnimateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+        
+        left: 80%;
+        top: 80%;
+        
+        -webkit-transform: scale(0.3);
+        -moz-transform: scale(0.3);
+        transform: scale(0.3);
+      opacity: 0.69;
+    }
+    
+    /* OBJECTS */
+    
+    .bubble {
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        
+        background: transparent radial-gradient(closest-side at 50% 50%, #003C58 0%, #005A84 100%) 0% 0% no-repeat padding-box;
+        
+        height: 200px;
+        position: absolute;
+        width: 200px;
+        z-index: 0;
+    }
+}
+

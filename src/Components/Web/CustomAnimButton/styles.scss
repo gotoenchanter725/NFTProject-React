@@ -1,0 +1,58 @@
+.anim_btn {
+  padding: 10px 48px !important;
+  padding-right: 40px !important;
+  &:hover {
+    box-shadow: 0px 0px 1px #16B4FF8E;
+    border: 2px solid #16B4FF;
+    .hover_on {
+      position: absolute !important;
+      left: 15px !important;
+    }
+  }
+  position: relative;
+  .hover_on {
+    position: absolute !important;
+    left: 0px !important;
+    transition: 400ms;
+    width: 30px;
+  }
+  .anim_btn_font {
+    font-size: 14 px;
+    text-decoration: none;
+  }
+  .btn-ico{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .anim_btn {
+    padding: 5px 24px !important;
+    padding-right: 20px !important;
+    &:hover {
+      box-shadow: 0px 0px 1px #16B4FF8E;
+      border: 1px solid #16B4FF;
+      .hover_on {
+        position: absolute !important;
+        left: 7px !important;
+      }
+    }
+    .anim_btn_font {
+      font-size: 12px !important;
+      text-decoration: none;
+    }
+    .hover_on {
+      position: absolute !important;
+      left: 0px !important;
+      transition: 400ms;
+      width: 15px;
+    }
+    .btn-ico{
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: 2px;
+    }
+  }
+}

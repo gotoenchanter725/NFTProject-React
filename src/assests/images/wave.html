@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @keyframes waveAni {
+      0% {
+        transform: translate(-25%);
+      }
+      100% {
+        transform: translate(0%);
+      }
+    }
+    body {
+      margin: 0;
+    }
+    .background {
+      /* filter: brightness(50%); */
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 400vw;
+      background-image: url("./1.png");
+      background-size: 25% 100%;
+      animation: waveAni 100s linear infinite;
+    }
+    .background .water {
+      position: absolute;
+      background-image: url("./2.png");
+      background-size: 25% 100%;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      filter: url("#turbulence");
+      animation: waveAni 100s linear reverse infinite;
+    }
+  </style>
+  <body>
+    <div style="background: #154968; width: 100vw; height: 100vh; overflow: hidden; position: relative">
+      <div class="background">
+        <div class="water"></div>
+      </div>
+      <svg>
+        <filter id="turbulence" x="0" y="0" width="100%" height="100%">
+          <feTurbulence id="sea-filter" numOctaves="3" seed="3" baseFrequency="0.02 0.05"></feTurbulence>
+          <feDisplacementMap scale="70" in="SourceGraphic"></feDisplacementMap>
+          <animate xlink:href="#sea-filter" attributeName="baseFrequency" dur="300s" keyTimes="0;0.5;1" values="0.02 0.06;0.04 0.08;0.02 0.06" repeatCount="indefinite"></animate>
+        </filter>
+      </svg>
+    </div>
+  </body>
+</html>

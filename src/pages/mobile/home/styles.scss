@@ -1,0 +1,65 @@
+.m_home_container {
+  background-image: linear-gradient(
+    180deg,
+    #99d3e5 0%,
+    #99d3e5 15%,
+    #053554 25.5%,
+    #000000 100%
+  );
+  background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.m_home_container_dark {
+  background-image: linear-gradient(#082d42 0%, #00101e 80%, #000000 100%);
+  background-repeat: no-repeat;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.m_dark_theme_bg {
+  background-image: url('../../../assests/images/cryptowhales-dark-background_mobile.png');
+  background-size: 100% 24%;
+  background-position: left left;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes waveAni {
+  0% {
+    transform: translate(-25%);
+  }
+  100% {
+    transform: translate(0%);
+  }
+}
+.m_home_background {
+  /* filter: brightness(50%); */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400vw;
+  background-image: url('../../../assests/images/1.png');
+  background-size: 25% 100%;
+  animation: waveAni 50s linear infinite;
+  top: 470px;
+  height: 400px;
+}
+
+.m_home_background.dark {
+  filter: brightness(70%);
+}
+
+.m_home_background .water {
+  position: absolute;
+  background-image: url('../../../assests/images/2.png');
+  background-size: 25% 100%;
+  bottom: 0;
+  left: 0;
+  height: 93%;
+  width: 100%;
+  filter: url('#turbulence');
+  animation: waveAni 50s linear reverse infinite;
+}

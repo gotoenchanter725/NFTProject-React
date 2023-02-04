@@ -1,0 +1,65 @@
+.mint_main{
+    margin-bottom: 378px;
+    .l_container{
+        .mint_title{
+            margin-top: 183px;
+            text-align: center;
+            font: normal normal normal 50px/80px Avenir Next;
+            letter-spacing: 0px;
+            text-shadow: 0px 3px 6px #00000029;
+        }
+        .l_element{
+            margin-top: 67px;
+            max-width: 507px;
+            .text_field {
+                background: transparent linear-gradient(261deg, #9CD4E6 0%, #DEF6FD 100%) 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 46px #16B4FF62;
+                border-radius: 4px;
+                color: #004F74;
+                width: 100%;
+                font: normal normal medium 25px/34px Avenir;
+            }
+            .input_field:focus-visible {
+                border: 0.5px solid #086A98;
+                outline: none;
+            }
+            .total_input {
+                background: #073C58 0% 0% no-repeat padding-box;
+                border: 0.5px solid #086A98;
+                border-radius: 3px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .ether_board {
+            background: #003C58 0% 0% no-repeat padding-box;
+            border: 0.5px solid #086A98;
+            border-radius: 4px;
+        }
+        .font{
+            // text-align: left;
+            font-size: 18px;
+            // font: normal normal 900 25px/34px Avenir;
+        }
+    }
+    .r_container {
+        .r_title {
+            font: Mosk normal normal bold ;
+            font-size: 50px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            margin-top: 267px;
+        }
+        .r_container{
+            max-width: 623px;
+            font-family: Avenir;
+            font-size: 16px;
+            font-weight: 100;
+            line-height: 40px;
+            
+            // font: normal normal normal 18px/40px Avenir;
+        }
+    }
+}

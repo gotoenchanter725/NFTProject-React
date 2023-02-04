@@ -1,0 +1,70 @@
+.m_main{
+    color: white;
+    margin-top: 90px;
+    .m_title{
+        text-align: center;
+        text-shadow: 0px 3px 6px #00000029;
+        letter-spacing: 3px;
+        z-index: 0;
+        margin-bottom: 15px;
+        .m_title_first {
+            line-height: 40px;
+            font: normal normal normal 32px/36px Avenir Next;
+        }
+        .m_title_second {
+            line-height: 40px;
+            font: normal normal bold 36px/40px Avenir Next;
+        }
+    }
+    
+    .m_subtitle{
+        font-size: 20px;
+        line-height: 40px;
+        font-weight: 400;
+        // font-family: Avenir;
+        text-align: center;
+        max-width: 430px;
+        margin: 0 20px
+    }
+    .m_collection{
+        margin-top: 250px;
+        font-size: 30px;
+        letter-spacing: 3px;
+        text-align: center;
+        .m_collection_title_first{
+            font-weight: lighter;
+            font-size: 25px;
+            display: inline;
+        }
+        
+        .m_collection_title_second {
+            font-weight: 300;
+            font-size: 30px;
+        }
+    }
+    .m_markIcon{
+        margin-top: 550px;
+    }
+    .m_bg_img {
+        padding-top: 94px;
+        width: 100%;
+        background-size: cover;
+        background-size: 100% 100%;
+        position: relative;
+        transform: translateY(50%);
+        height: 8%;
+        position: absolute;
+    }
+    // .m_bg_img {
+    //     position: absolute;
+    //     width: 100%;
+    //     top: 320px;
+    // }
+}
+
+// @media only screen and (max-width: 500px) {
+//     .m_bg_img {
+//         transform: translateY(91%);
+//         height: 8%;
+//     }
+// }

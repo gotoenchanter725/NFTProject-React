@@ -1,0 +1,28 @@
+.m_footer {
+    color: #fff;
+    z-index: 2;
+    .m_title{
+        margin: 20px;
+        min-width: 300px;
+        line-height: 35px;
+        text-align: center;
+        font-size: 14px;
+        font-family: 'Work Sans';
+        font-weight: 200;
+    }
+    .m_cpwrite{
+        font: normal normal 100 12px/11px Work Sans;
+    }
+}
+
+@media only screen and (max-width: 410px) {    
+    .m_title{
+        margin: 10px;
+        min-width: 300px;
+        line-height: 30px;
+        font-size: 11px;
+    }
+    .m_cpwrite{
+        font: normal normal 100 11px/11px Work Sans;
+    }
+}

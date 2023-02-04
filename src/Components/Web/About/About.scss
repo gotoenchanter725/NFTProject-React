@@ -1,0 +1,28 @@
+.main{
+    color: white;
+    margin-bottom: 800px;
+    margin-top: 185px;
+    .content{
+        margin-top: 83px;
+        text-align: center;
+        text-shadow: 0px 3px 6px #00000029;
+        font: normal normal 100 18px/40px Roboto;
+        max-width: 812px;
+        padding-bottom: 50px;
+    }
+    
+    .subtitle{
+        letter-spacing: 7px;
+        text-align: center;
+        margin-top: 96px;
+        font: normal normal 100 35px/70px Roboto;
+        b{
+            font: normal normal 300 40px/70px Avenir Next;
+        }
+    }
+    
+    .subcontent {
+        font: normal normal medium 20px/35px Avenir;
+        text-align: center;
+    }
+}

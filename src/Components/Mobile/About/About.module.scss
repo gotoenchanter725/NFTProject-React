@@ -1,0 +1,49 @@
+.m_main{
+    color: white;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    .m_content{
+        margin-top: -90px;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;
+        text-shadow: 0px 3px 6px #00000029;
+        font: normal normal 300 14px/22px Roboto;
+        max-width: 812px;
+        padding-bottom: 50px;
+        line-height: 36px;
+    }
+    
+    .m_subtitle{
+        letter-spacing: 3.6px;
+        text-shadow: 0px 3px 6px #00000029;
+        font-family:Avenir;
+        text-align: center;
+        margin-top: 96px;
+        font: normal normal 100 18px/25px 'Roboto';
+        b{
+            font: normal normal medium 18px/25px Avenir Next;
+        }
+    }
+    
+    .m_subcontent {
+        text-align: center;
+        font: normal normal 100 11px/20px Roboto;
+    }
+}
+
+@media only screen and (max-width: 410px) {    
+    .m_subtitle{
+        letter-spacing: 1.8px !important;
+        text-shadow: 0px 3px 6px #00000029;
+        font: normal normal 100 16px/22px 'Roboto' !important;
+        b{
+            font: normal normal medium 16px/22px Avenir Next !important;
+        }
+    }
+    
+    .m_subcontent {
+        text-align: center;
+        font: normal normal 100 10px/18px Roboto;
+    }
+}

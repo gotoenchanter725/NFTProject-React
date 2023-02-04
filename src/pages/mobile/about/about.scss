@@ -1,0 +1,44 @@
+.m_about_title{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 20px;
+        font-family: 'Roboto';
+}
+
+.m_about_container {
+    background-image: linear-gradient(180deg,#99D3E5 0%,#99D3E5 13%, #023252 14.5%, #000000 100%);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.m_about_containerDark {
+    background-image: linear-gradient( #0a2b42 0%, #00101E 44%, #000000 100%);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.m_dark_theme_about_bg {
+    background-image: url('../../../assests/images/cryptowhales-dark-background_mobile.png');
+    background-size: 100% 20%;
+    background-position: left left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+
+@media only screen and (max-width: 410px) {    
+    .m_about_title{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 100;
+        letter-spacing: 1.6px;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029;
+        margin-bottom: 20px;
+            font-family: 'Roboto';
+    }
+}

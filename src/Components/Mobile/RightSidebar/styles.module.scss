@@ -1,0 +1,41 @@
+.rightSidebar_container {
+    background: rgba($color: #FFFF, $alpha: 0.5) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    transition: 400ms;
+    z-index: 10;
+    width: 60%;
+    height: 100vh;
+}
+
+.light {
+    background: #99D3E5 0% 0% no-repeat padding-box;
+}
+
+.dark {
+    background: transparent linear-gradient(180deg, #053554 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+
+.rightSidebar_container_active {
+    right: 0% !important;
+}
+
+.rightSidebar_container_inactive {
+    right: -100% !important;
+}
+
+.darkTitle {
+    color: white;
+}
+
+.lightTitle {
+    color: #053554;
+}
+
+.title {
+    font: normal normal 100 16px/19px Mosk;
+}

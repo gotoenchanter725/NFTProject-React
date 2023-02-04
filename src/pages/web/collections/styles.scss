@@ -1,0 +1,14 @@
+.collection_container {
+    background-image: url("../../../assests/images/mark.png"),url('../../../assests/images/ocean-background2.png'),
+                        linear-gradient(180deg, #053554 76%, #000000 100%);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center bottom 125px, top, center;
+}
+
+.collection_container_dark {
+
+    background-image: url("../../../assests/images/mark.png"),url('../../../assests/images/ocean-background-dark2.png'),
+                        linear-gradient(180deg, #051c2c 80%, #000000 100%);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center bottom 125px, top, center;
+}

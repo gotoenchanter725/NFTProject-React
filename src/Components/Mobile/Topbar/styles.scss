@@ -1,0 +1,80 @@
+.m_navText:hover {
+    color: #16B4FF;
+    cursor: pointer;
+}
+.m_navText {
+    margin-left: 120px;
+    font-size: 19px;
+}
+
+.m_connectBtn-dark-, .m_connectBtn-dark-transparent {
+    border: 1px solid #16B4FF !important;
+    border-radius: 4px;
+    padding: 10px 35px !important;
+    font: normal normal medium 12px/14px Work Sans;
+    color: white !important;
+}
+
+.m_connectBtn-light-, .m_connectBtn-light-transparent {
+    border: 1px solid #16B4FF !important;
+    background-color: #16B4FF !important;
+    border-radius: 4px;
+    padding: 10px 35px !important;
+    font: normal normal medium 12px/14px Work Sans;
+    color: white !important;
+}
+
+.m_bg-light- {
+    background: #99D3E5 0% 0% no-repeat padding-box;
+    position: relative;
+}
+
+.m_bg-dark- {
+    background: #000009 0% 0% no-repeat padding-box;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 420px) {
+    .m_connectBtn-dark-, .m_connectBtn-dark-transparent {
+        border: 1px solid #16B4FF !important;
+        border-radius: 4px;
+        padding: 5px 10px !important;
+        font: normal normal medium 10px/12px Work Sans;
+        color: white !important;
+    }
+    
+    .m_connectBtn-light-, .m_connectBtn-light-transparent {
+        border: 1px solid #16B4FF !important;
+        background-color: #16B4FF !important;
+        border-radius: 4px;
+        padding: 5px 10px !important;
+        font: normal normal medium 10px/12px Work Sans;
+        color: white !important;
+    }
+    .topbar_icon_container{
+        margin-right: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .m_connectBtn-dark-, .m_connectBtn-dark-transparent {
+        border: 1px solid #16B4FF !important;
+        border-radius: 4px;
+        padding: 5px 10px !important;
+        font: normal normal medium 10px/12px Work Sans;
+        color: white !important;
+    }
+    
+    .m_connectBtn-light-, .m_connectBtn-light-transparent {
+        border: 1px solid #16B4FF !important;
+        background-color: #16B4FF !important;
+        border-radius: 4px;
+        padding: 5px 10px !important;
+        font: normal normal medium 10px/12px Work Sans;
+        color: white !important;
+    }
+    .topbar_icon_container{
+        margin-right: 10px !important;
+    }
+}

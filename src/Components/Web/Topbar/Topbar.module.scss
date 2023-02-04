@@ -1,0 +1,45 @@
+.navText:hover {
+    color: #16B4FF;
+    cursor: pointer;
+}
+.navText {
+    margin-left: 120px;
+    font-size: 19px;
+    font-family: 'Avenir';
+}
+
+.connectBtn {
+    border: 1px solid #16B4FF !important;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Work Sans;
+    font-size: 19px;
+    letter-spacing: 0px;
+    margin-left: 106px;
+    padding: 10px 18px !important;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .navText {
+        margin-left: 60px;
+        font-size: 15px;
+    }
+    .connectBtn {
+        border: 1px solid #16B4FF !important;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: Work Sans;
+        font-size: 15px;
+        letter-spacing: 0px;
+        margin-left: 53px;
+        padding: 7px 14px !important;
+    }
+}
+
+@media only screen and (max-width: 850) {
+    .navText {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,20 @@
+.about_title{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 7px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+}
+
+.about_container {
+    background-image: url('../../../assests/images/ocean-background2.png'),linear-gradient(180deg, #053554 22%, #000000 100%);
+    background-repeat: no-repeat;
+}
+
+.about_container_dark {
+    background-image: url('../../../assests/images/ocean-background-dark2.png'),linear-gradient(180deg, #022641 8%, #000000 100%);
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,279 @@
+.m_sub_nav_bar {
+    background: rgba(0,0,0,0.5) 0% 0% no-repeat padding-box;
+    padding: 10px 40px; 
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.m_sub_nav_bar_active {
+    opacity: 1;
+    font: normal normal medium Avenir;
+    font-size: 11px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    border-bottom: 1px solid white !important;
+}
+
+.m_sub_nav_bar_inactive {
+    opacity: 0.5;
+    font: normal normal medium Avenir;
+    font-size: 11px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.m_sub_container {
+    margin-bottom: 150px;
+    margin-top: 40px;
+}
+
+.m_title1 {
+    font: normal normal normal 16px/16px Avenir;
+    color: white;
+}
+
+.m_title2 {
+    font: normal normal 900 16px/16px Avenir;
+    color: white;
+}
+
+.m_collection_itm_container {
+    background: transparent linear-gradient(180deg, #E2F8FF 0%, #99D3E5 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #16B4FF31;
+    filter: blur(0px);
+    border-radius: 25px;
+    padding: 21px;
+    position: relative;
+    .m_flip_side {
+        background: #086A98 0% 0% no-repeat padding-box;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        margin-bottom: 10px;
+    }
+    .m_fron_side {
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+.m_collection_itm_container_dark{
+    background: transparent linear-gradient(0deg, #003C58 0%, #00121A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #16B4FF31;
+    filter: blur(0px);
+    border-radius: 25px;
+    padding: 21px;
+    position: relative;
+    .m_flip_side {
+        background: #086A98 0% 0% no-repeat padding-box;
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        margin-bottom: 10px;
+    }
+    .m_fron_side {
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+.m_modeBtn {
+    border-bottom: 1px solid #004F74;
+    width: 130px;
+    right: 0px;
+    padding-bottom: 3px;
+    position: absolute;
+}
+
+.m_modeBtnContainer {
+    padding: 5px;
+}
+
+.m_modeBtnContainer_active {
+    border: 0.5px solid #004F74;
+    padding: 5px;
+}
+
+.m_subTitle{
+    padding-left: 40px;
+    padding-right:10px;
+    margin-top: 30px;
+    height: 60px;
+    border-bottom: 1px solid #004F74;
+    font: normal normal 700 30px/103px Avenir;
+    color: white;
+    width: fit-content;
+}
+
+.m_main_info_font {
+    font: normal normal bold 22px/26px Space Grotesk;
+    color: #003C58;
+    text-align: left;
+}
+
+.m_main_info_font2 {
+    font: normal normal bold 12px Space Grotesk;
+    color: #003C58;
+    text-align: left;
+}
+
+.m_sub_title_font2 {
+    text-align: left;
+    font: normal normal normal 14px/26px Space Grotesk;
+    color: #003C58;
+}
+
+.m_sub_title_font {
+    text-align: left;
+    font: normal normal normal 12px Space Grotesk;
+    color: #003C58;
+}
+
+.m_time_font2 {
+    font: normal normal normal 15px/35px Space Grotesk;
+    color: #16B4FF;
+    padding-top: 10px;
+}
+
+.m_time_font {
+    font: normal normal normal 12px Space Grotesk;
+    color: #16B4FF;
+    padding-top: 10px;
+
+}
+
+.table-padding {
+    margin-left: 50px;
+    margin-bottom: 24px;
+}
+.table-padding2 {
+    margin-left: 25px;
+    margin-bottom: 12px;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .m_sub_nav_bar {
+        padding: 10px 20px;
+    }
+    
+    .m_sub_nav_bar_active {
+        font-size: 8px;
+    }
+    
+    .m_sub_nav_bar_inactive {
+        font-size: 8px;
+    }
+    
+    .m_title1 {
+        font: normal normal normal 10px/10px Avenir;
+        color: white;
+    }
+    
+    .m_title2 {
+        font: normal normal 900 10px/10px Avenir;
+        color: white;
+    }
+    
+    .m_collection_itm_container {
+        background: transparent linear-gradient(180deg, #E2F8FF 0%, #99D3E5 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 10px #16B4FF31;
+        filter: blur(0px);
+        border-radius: 10px;
+        padding: 10px;
+        position: relative;
+        .m_flip_side {
+            background: #086A98 0% 0% no-repeat padding-box;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .m_fron_side {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .m_collection_itm_container_dark{
+        background: transparent linear-gradient(0deg, #003C58 0%, #00121A 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 0px 0px 20px #16B4FF31;
+        filter: blur(0px);
+        border-radius: 10px;
+        padding: 10px;
+        position: relative;
+        .m_flip_side {
+            background: #086A98 0% 0% no-repeat padding-box;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .m_fron_side {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            margin-bottom: 10px;
+        }
+    }
+    
+    .m_modeBtn {
+        border-bottom: 1px solid #004F74;
+        width: 130px;
+        right: 0px;
+        padding-bottom: 3px;
+        position: absolute;
+    }
+    
+    .m_modeBtnContainer {
+        padding: 5px;
+    }
+    
+    .m_modeBtnContainer_active {
+        border: 0.5px solid #004F74;
+        padding: 5px;
+    }
+    
+    .m_subTitle{
+        padding-left: 30px;
+        padding-right:5px;
+        margin-top: 30px;
+        height: 40px;
+        border-bottom: 1px solid #004F74;
+        font: normal normal 700 15px/15px Avenir;
+    }
+    
+    .m_main_info_font {
+        font: normal normal bold 12px/14px Space Grotesk;
+    }
+    
+    .m_main_info_font2 {
+        font: normal normal bold 10px Space Grotesk;
+    }
+    
+    .m_sub_title_font2 {
+        font: normal normal normal 12px/14px Space Grotesk;
+    }
+    
+    .m_sub_title_font {
+        font: normal normal normal 10px Space Grotesk;
+    }
+    
+    .m_time_font2 {
+        font: normal normal normal 10px Space Grotesk;
+    }
+    
+    .m_time_font {
+        font: normal normal normal 12px Space Grotesk;
+    }
+    .table-padding {
+        margin-left: 20px;
+        margin-bottom: 12px;
+    }
+    .table-padding2 {
+        margin-left: 10px;
+        margin-bottom: 6px;
+    }
+}
